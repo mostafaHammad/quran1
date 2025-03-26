@@ -4,45 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>مقرأة الحرمين - الجلسات القرآنية</title>
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body { 
-      font-family: 'Tajawal', sans-serif; 
+      font-family: Arial, sans-serif; 
       line-height: 2.5; 
-      background: linear-gradient(135deg, #fdfbfb, #ebedee); 
-      color: #2c3e50; 
-      padding: 30px; 
-      font-size: 300%;
+      background: #f0f8ff; 
+      color: #333; 
+      padding: 30px;
+      font-size: 1.5rem;
     }
-    h1, h2 { color: #1a5276; }
+    h1 { 
+      color: #2c3e50; 
+      font-size: 3rem;
+      text-align: center;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    }
+    h2 { 
+      color: #2980b9; 
+      font-size: 2.5rem;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 10px;
+    }
     a { 
-      color: #007bff; 
+      color: #e74c3c; 
       text-decoration: none; 
-      word-break: break-word; 
-      background-color: #d4edda; 
-      padding: 10px 20px; 
-      border-radius: 15px; 
-      display: inline-block; 
-      margin-top: 10px;
+      word-break: break-all; 
+      font-weight: bold;
+      transition: all 0.3s ease;
     }
     a:hover { 
-      text-decoration: underline; 
-      background-color: #c3e6cb; 
+      color: #c0392b; 
+      text-decoration: underline;
     }
     .section { 
-      background: #ffffff; 
-      padding: 30px; 
-      border-radius: 20px; 
-      margin-bottom: 40px; 
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+      background: linear-gradient(to bottom, #ffffff, #f8f9fa); 
+      padding: 25px; 
+      border-radius: 15px; 
+      margin-bottom: 30px; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border: 1px solid #e0e0e0;
     }
-    ul { list-style-type: none; padding: 0; }
-    li { margin-bottom: 20px; }
+    ul {
+      padding-right: 20px;
+    }
+    li {
+      margin-bottom: 15px;
+    }
+    .app-buttons {
+      display: flex;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    .app-badge {
+      background: #3498db;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 25px;
+      font-size: 1.2rem;
+      display: inline-block;
+    }
+    .app-badge:hover {
+      background: #2980b9;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
   <h1>مقرأة الحرمين - جلسات قرآنية مفتوحة</h1>
-  <p>السلام عليكم، أطلقت (مقرأة الحرمين) جلسات قرآنية مفتوحة <strong>أونلاين</strong> على مدار الساعة، وتضم أساتذة متميزين وعلماء من أهل العلم.
+  <p>السلام عليكم، أطلقت (مقرأة الحرمين) جلسات قرآنية مفتوحة <strong>أونلاين</strong> على مدار الساعة، وتضم أساتذة متميزين وعلماء أهل العلم.
   لا يشترط موعد أو تسجيل. ما عليك سوى الدخول إلى الروابط التالية، والنقر على "الانضمام إلى الجلسة"، والقراءة مباشرة مع الشيخ.</p>
 
   <div class="section">
@@ -98,11 +128,40 @@
   <div class="section">
     <h2>التطبيقات المفيدة:</h2>
     <ul>
-      <li><strong>تعلم القرآن</strong> - <a href="https://play.google.com/store/apps/details?id=com.moddakir.tallam">Android</a> | <a href="https://apps.apple.com/jo/app/%D8%AA%D8%B9%D9%84%D9%85-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86/id6447681853?l=ar">iPhone</a></li>
-      <li><strong>القرآن مباشر</strong> - <a href="https://play.google.com/store/apps/details?id=maknoon.student">Android</a> | <a href="https://apps.apple.com/jo/app/quran-mobasher-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1/id1602922387?l=ar">iPhone</a></li>
-      <li><strong>مقرأة الحرمين</strong> - <a href="https://play.google.com/store/apps/details?id=com.eqrra.muqra.macca">Android</a> | <a href="https://apps.apple.com/us/app/%D9%85%D9%82%D8%B1%D8%A3%D8%A9-%D8%A7%D9%84%D8%AD%D8%B1%D9%85%D9%8A%D9%86/id6479941524">iPhone</a></li>
-      <li><strong>تبيان</strong> - <a href="https://play.google.com/store/apps/details?id=com.moddakir.tibyan">Android</a> | <a href="https://apps.apple.com/sa/app/%D8%AA-%D8%A8%D9%8A%D8%A7%D9%86/id6739614042?l=ar">iPhone</a></li>
-      <li><strong>مقرأة الصفا</strong> - <a href="https://play.google.com/store/apps/details?id=com.moddakir.elsafa">Android</a></li>
+      <li>
+        <strong>مقرأة الحرمين</strong>
+        <div class="app-buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.eqrra.muqra.macca" class="app-badge">Android</a>
+          <a href="https://apps.apple.com/us/app/%D9%85%D9%82%D8%B1%D8%A3%D8%A9-%D8%A7%D9%84%D8%AD%D8%B1%D9%85%D9%8A%D9%86/id6479941524" class="app-badge">iPhone</a>
+        </div>
+      </li>
+      <li>
+        <strong>تعلم القرآن</strong>
+        <div class="app-buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.moddakir.tallam" class="app-badge">Android</a>
+          <a href="https://apps.apple.com/jo/app/%D8%AA%D8%B9%D9%84%D9%85-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86/id6447681853?l=ar" class="app-badge">iPhone</a>
+        </div>
+      </li>
+      <li>
+        <strong>القرآن مباشر</strong>
+        <div class="app-buttons">
+          <a href="https://play.google.com/store/apps/details?id=maknoon.student" class="app-badge">Android</a>
+          <a href="https://apps.apple.com/jo/app/quran-mobasher-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1/id1602922387?l=ar" class="app-badge">iPhone</a>
+        </div>
+      </li>
+      <li>
+        <strong>تبيان</strong>
+        <div class="app-buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.moddakir.tibyan" class="app-badge">Android</a>
+          <a href="https://apps.apple.com/sa/app/%D8%AA-%D8%A8%D9%8A%D8%A7%D9%86/id6739614042?l=ar" class="app-badge">iPhone</a>
+        </div>
+      </li>
+      <li>
+        <strong>مقرأة الصفا</strong>
+        <div class="app-buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.moddakir.elsafa" class="app-badge">Android</a>
+        </div>
+      </li>
     </ul>
   </div>
 </body>
